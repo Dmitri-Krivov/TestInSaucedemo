@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import pageObjects.LoginPage;
+import pageObjects.ProductsPage;
 import pageObjects.Urls;
 
 public class FillLogInForm {
@@ -21,7 +22,14 @@ public class FillLogInForm {
          loginPage.clickNext();
          Assert.assertEquals(loginPage.getErrorMessage(),"Epic sadface: Username is required", "Error message is incorrect");
          loginPage.checkIn("standard_user", "secret_sauce");
+         loginPage.clickNext();
          loginPage.sleep(1000);
-         loginPage.tearDown();
+
+//       ProductsPage
+        ProductsPage productsPage = new ProductsPage(driver);
+        Assert.assertTrue(productsPage.elementOnThePage());
+        Assert.assertEquals(productsPage.getCurrentUrl(), "https://www.saucedemo.com/inventory.html", "Address is incorrect");
+        productsPage.sleep(1000);
+        productsPage.tearDown();
     }
 }
