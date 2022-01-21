@@ -15,10 +15,7 @@ public class ProductsPage extends BasePage{
     }
 
 //    Methods
-    public boolean elementOnThePage (){
-        return elementIsDisplayed(title);
-    }
-    public String getCurrentUrl(){
-        return driver.getCurrentUrl();
+    public boolean elementOnThePage(){
+    return elementIsDisplayed(title);
     }
 }

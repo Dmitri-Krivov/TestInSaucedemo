@@ -25,15 +25,18 @@ public class BasePage {
     public String getElementText(WebElement element){
         return element.getText();
     }
-    public boolean elementIsDisplayed(WebElement element){
-        return  element.isDisplayed();
-    }
     public void sleep(long mills){
         try {
             Thread.sleep(mills);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+    public boolean elementIsDisplayed(WebElement element){
+        return  element.isDisplayed();
+    }
+    public String getCurrentUrl(){
+        return driver.getCurrentUrl();
     }
     public void tearDown(){
         driver.quit();
