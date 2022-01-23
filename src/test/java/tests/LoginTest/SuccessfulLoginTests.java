@@ -1,4 +1,4 @@
-package test.LoginTest;
+package tests.LoginTest;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -6,7 +6,7 @@ import pageObjects.Credentials;
 import pageObjects.LoginPage;
 import pageObjects.ProductsPage;
 import pageObjects.Urls;
-import test.BaseTest;
+import tests.BaseTest;
 
 public class SuccessfulLoginTests extends BaseTest {
     @Test(testName = "Login with standard user")
