@@ -22,7 +22,6 @@ public class FillLogInForm {
          loginPage.clickNext();
          Assert.assertEquals(loginPage.getErrorMessage(),"Epic sadface: Username is required", "Error message is incorrect");
          loginPage.checkIn("standard_user", "secret_sauce");
-         loginPage.clickNext();
          loginPage.sleep(1000);
 
 //       ProductsPage
