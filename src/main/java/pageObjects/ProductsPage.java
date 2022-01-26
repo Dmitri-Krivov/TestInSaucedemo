@@ -4,23 +4,31 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class ProductsPage extends CommonsElements{
 
-    //Elements
-    @FindBy(css = "[class='header_secondary_container'] [class='title']")
-    WebElement pageTitle;
+    //    Elements
+    @FindBy (css = "[class = 'title']")
+    private WebElement title;
 
-    @FindBy(css = "[class='social_twitter']")
-    WebElement twitterButton;
+    @FindBy(css = "[class='inventory_item_name']")
+    private List<WebElement> productsTitles;
 
-    @FindBy(css = "[class='social_facebook']")
-    WebElement facebookButton;
-
-    @FindBy(css = "[class='social_linkedin']")
-    WebElement linkedinButton;
+    @FindBy(css = "[class='btn btn_primary btn_small btn_inventory']")
+    private List<WebElement> buttonAddToCart;
 
     @FindBy(css = "[class='shopping_cart_link']")
-    WebElement shoppingCartButton;
+    private WebElement shoppingCartButton;
+
+    @FindBy(css = "[class='social_twitter']")
+    private WebElement twitterButton;
+
+    @FindBy(css = "[class='social_facebook']")
+    private WebElement facebookButton;
+
+    @FindBy(css = "[class='social_linkedin']")
+    private WebElement linkedinButton;
 
     @FindBy(css = "[class='shopping_cart_badge']")
     WebElement cartItemsCounter;
@@ -45,6 +53,12 @@ public class ProductsPage extends CommonsElements{
         clickElement(shoppingCartButton);
     }
 
+    public void addToCart(Integer num) {
+        clickElement(buttonAddToCart.get(num));
+    }
+
+
+
     public void clickLinkedin() {
         clickElement(linkedinButton);
     }
@@ -57,9 +71,7 @@ public class ProductsPage extends CommonsElements{
         clickElement(twitterButton);
     }
 
-    //    Elements
-    @FindBy (css = "[class = 'title']")
-    WebElement title;
+
 
 //    Constructor
     public ProductsPage(WebDriver driver) {
