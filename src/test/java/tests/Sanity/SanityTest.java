@@ -38,5 +38,11 @@ public class SanityTest extends BaseTest {
         Assert.assertTrue(checkoutOverviewPage.elementOnThePage());
         Assert.assertEquals(checkoutOverviewPage.getCurrentUrl(), Urls.BASE_CHECKOUTSTEPTWO, "Address is incorrect");
         checkoutOverviewPage.finishCheckout();
+
+//
+        CheckoutCompletePage checkoutCompletePage = new CheckoutCompletePage(driver);
+        Assert.assertTrue(checkoutCompletePage.elementOnThePage());
+        Assert.assertEquals(checkoutCompletePage.getCurrentUrl(), Urls.BASE_CHECKOUTCOMPLETE, "Address is incorrect");
+        checkoutCompletePage.goBackToProductsPage();
     }
 }
