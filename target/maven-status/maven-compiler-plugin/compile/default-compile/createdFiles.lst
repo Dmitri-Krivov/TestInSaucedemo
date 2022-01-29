@@ -1,0 +1,11 @@
+pageObjects\CheckOutYourInformationPage.class
+pageObjects\YourCartPage.class
+pageObjects\LoginPage.class
+pageObjects\BasePage.class
+pageObjects\CheckoutOverviewPage.class
+pageObjects\Urls.class
+pageObjects\CommonsElements.class
+pageObjects\Credentials.class
+pageObjects\CheckoutCompletePage.class
+pageObjects\ProductPage.class
+pageObjects\ProductsPage.class

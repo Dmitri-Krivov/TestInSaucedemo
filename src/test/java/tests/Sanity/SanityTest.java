@@ -1,5 +1,6 @@
 package tests.Sanity;
 
+import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.*;
@@ -7,6 +8,11 @@ import tests.BaseTest;
 
 public class SanityTest extends BaseTest {
 
+    @Severity(SeverityLevel.MINOR)
+    @Description("Verify login with different Credentials")
+    @Epic("E01")
+    @Feature("Feature2: Login")
+    @Story("Story:PRO-45262")
     @Test(testName = "Sanity")
     public void test_01() {
 //Login

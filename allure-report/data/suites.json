@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Sanity",
+    "children" : [ {
+      "name" : "Sanity",
+      "children" : [ {
+        "name" : "tests.Sanity.SanityTest",
+        "children" : [ {
+          "name" : "test_01",
+          "uid" : "bfe76329a11c1460",
+          "parentUid" : "ea15704c6cb0251414e4ee9295ba35e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643227808635,
+            "stop" : 1643227814416,
+            "duration" : 5781
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ea15704c6cb0251414e4ee9295ba35e9"
+      } ],
+      "uid" : "2bec115275ee9ec64603028f86ba1f53"
+    } ],
+    "uid" : "f2fecb5045efe0ee12842e6d8d6c3bb1"
+  } ]
+}
