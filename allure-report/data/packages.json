@@ -2,21 +2,85 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "tests.Sanity.SanityTest",
+    "name" : "tests.Sanity",
     "children" : [ {
-      "name" : "test_01",
-      "uid" : "bfe76329a11c1460",
-      "parentUid" : "c607d5cc074edab92367537f91164107",
-      "status" : "passed",
-      "time" : {
-        "start" : 1643227808635,
-        "stop" : 1643227814416,
-        "duration" : 5781
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
+      "name" : "SanityTest",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "5886e949f78a515b",
+        "parentUid" : "c607d5cc074edab92367537f91164107",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643461958469,
+          "stop" : 1643461958476,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01",
+        "uid" : "b39c11eee4a3f6e8",
+        "parentUid" : "c607d5cc074edab92367537f91164107",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643464939195,
+          "stop" : 1643464945262,
+          "duration" : 6067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c607d5cc074edab92367537f91164107"
+    }, {
+      "name" : "Sanity2",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "5f7b910f9a4746de",
+        "parentUid" : "234cafed94250ca67cf0db6d65068b89",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643464667237,
+          "stop" : 1643464667242,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_01",
+        "uid" : "1d5f7beba0a0941e",
+        "parentUid" : "234cafed94250ca67cf0db6d65068b89",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643464876418,
+          "stop" : 1643464894190,
+          "duration" : 17772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "234cafed94250ca67cf0db6d65068b89"
+    }, {
+      "name" : "Test152",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "47e03988271250c5",
+        "parentUid" : "6f8c8968acdb7f2cbf5c8590d26d3e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643464982412,
+          "stop" : 1643464988553,
+          "duration" : 6141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f8c8968acdb7f2cbf5c8590d26d3e49"
     } ],
-    "uid" : "tests.Sanity.SanityTest"
+    "uid" : "tests.Sanity"
   } ]
 }

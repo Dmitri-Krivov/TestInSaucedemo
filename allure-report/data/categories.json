@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "session not created\nfrom timeout: Timed out receiving message from renderer: 600.000\n  (Session info: chrome=97.0.4692.99)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ADMINER', ip: '192.168.1.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x00CFFDC3+2555331]\n\tOrdinal0 [0x00C977F1+2127857]\n\tOrdinal0 [0x00B92E08+1060360]\n\tOrdinal0 [0x00B853A8+1004456]\n\tOrdinal0 [0x00B843FA+1000442]\n\tOrdinal0 [0x00B846B6+1001142]\n\tOrdinal0 [0x00B83F95+999317]\n\tOrdinal0 [0x00B8EEA4+1044132]\n\tOrdinal0 [0x00B83F45+999237]\n\tOrdinal0 [0x00B84E85+1003141]\n\tOrdinal0 [0x00B843FA+1000442]\n\tOrdinal0 [0x00B846B6+1001142]\n\tOrdinal0 [0x00B83F95+999317]\n\tOrdinal0 [0x00B8CEA3+1035939]\n\tOrdinal0 [0x00B83F45+999237]\n\tOrdinal0 [0x00B84E85+1003141]\n\tOrdinal0 [0x00B843FA+1000442]\n\tOrdinal0 [0x00B846B6+1001142]\n\tOrdinal0 [0x00B83F95+999317]\n\tOrdinal0 [0x00B8ACA9+1027241]\n\tOrdinal0 [0x00B83F45+999237]\n\tOrdinal0 [0x00B84E85+1003141]\n\tOrdinal0 [0x00B843FA+1000442]\n\tOrdinal0 [0x00B846B6+1001142]\n\tOrdinal0 [0x00B83F95+999317]\n\tOrdinal0 [0x00B8A02C+1024044]\n\tOrdinal0 [0x00B83F45+999237]\n\tOrdinal0 [0x00B84E85+1003141]\n\tOrdinal0 [0x00B843FA+1000442]\n\tOrdinal0 [0x00B846B6+1001142]\n\tOrdinal0 [0x00B83F95+999317]\n\tOrdinal0 [0x00B7FA8D+981645]\n\tOrdinal0 [0x00B83F45+999237]\n\tOrdinal0 [0x00B83CD0+998608]\n\tOrdinal0 [0x00B83A19+997913]\n\tOrdinal0 [0x00B94040+1065024]\n\tOrdinal0 [0x00BDD27B+1364603]\n\tOrdinal0 [0x00BDBE9A+1359514]\n\tOrdinal0 [0x00BD7976+1341814]\n\tOrdinal0 [0x00BB36B6+1193654]\n\tOrdinal0 [0x00BB4546+1197382]\n\tGetHandleVerifier [0x00E99622+1619522]\n\tGetHandleVerifier [0x00F4882C+2336844]\n\tGetHandleVerifier [0x00D923E1+541697]\n\tGetHandleVerifier [0x00D91443+537699]\n\tOrdinal0 [0x00C9D18E+2150798]\n\tOrdinal0 [0x00CA1518+2168088]\n\tOrdinal0 [0x00CA1660+2168416]\n\tOrdinal0 [0x00CAB330+2208560]\n\tBaseThreadInitThunk [0x75A8FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76EC7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76EC7A6E+238]\n",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "5886e949f78a515b",
+        "parentUid" : "e2c09fe8f7983d53df4b2860ace5476e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643461958469,
+          "stop" : 1643461958476,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e2c09fe8f7983d53df4b2860ace5476e"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: 300.000\n  (Session info: chrome=97.0.4692.99)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'ADMINER', ip: '192.168.1.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:3537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 71af867ae7587c29738a6ee590699cba",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "5f7b910f9a4746de",
+        "parentUid" : "dba5376148427a8e485ddb69ee03e9a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643464667237,
+          "stop" : 1643464667242,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dba5376148427a8e485ddb69ee03e9a8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

@@ -1,0 +1,1 @@
+{"uuid":"b1217c97-536f-4f31-9e98-05bfb3349db8","name":"tests.Sanity.SanityTest","children":["8b2d6d9a-dfe4-4b58-b062-279acb568219"],"befores":[{"name":"setupChromeDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1643462159142,"stop":1643462160930}],"afters":[],"start":1643462159045,"stop":1643462174940}

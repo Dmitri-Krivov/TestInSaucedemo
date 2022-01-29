@@ -1,6 +1,8 @@
 tests\FillLogInForm2.class
-tests\BaseTest.class
-tests\Sanity\SanityTest.class
-tests\FillLogInForm.class
+tests\Sanity\Test152.class
 tests\LoginTest\SuccessfulLoginTests.class
 tests\LoginTest\NegativeLoginTest.class
+tests\BaseTest.class
+tests\Sanity\SanityTest.class
+tests\Sanity\Sanity2.class
+tests\FillLogInForm.class

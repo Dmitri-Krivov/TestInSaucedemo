@@ -1,8 +1,30 @@
 {
-  "total" : 1,
+  "total" : 5,
   "items" : [ {
+    "uid" : "c040540df8bc309b1f070f7e1d805ce0",
+    "name" : "E02",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "631f2fa8ea5ee05a1a50ea8b44a4d83d",
     "name" : "E01",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2d53522a992bcee118a7effdaa472549",
+    "name" : "E0152",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
