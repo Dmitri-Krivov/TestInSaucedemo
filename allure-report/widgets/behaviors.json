@@ -12,8 +12,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "631f2fa8ea5ee05a1a50ea8b44a4d83d",
-    "name" : "E01",
+    "uid" : "2d53522a992bcee118a7effdaa472549",
+    "name" : "E0152",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +23,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "2d53522a992bcee118a7effdaa472549",
-    "name" : "E0152",
+    "uid" : "631f2fa8ea5ee05a1a50ea8b44a4d83d",
+    "name" : "E01",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,6 +18,9 @@ public class ProductsPage extends CommonsElements{
 
     @FindBy(css = "[class='btn btn_primary btn_small btn_inventory']")
     private List<WebElement> buttonAddToCart;
+
+    @FindBy(css = "[class='inventory_item_description']")
+    private List<WebElement> listOfItems;
 
     @FindBy(css = "[class='shopping_cart_link']")
     private WebElement shoppingCartButton;
@@ -53,10 +57,25 @@ public class ProductsPage extends CommonsElements{
         clickElement(shoppingCartButton);
     }
 
+    public int getProductsCount(){
+        if(getElementText(shoppingCartButton).equals("")) {
+            return 0;
+        }
+            return Integer.parseInt(getElementText(shoppingCartButton));
+    }
+
     public void addToCart(Integer num) {
         clickElement(buttonAddToCart.get(num));
     }
+    public void addToCartByProductName(String productTitle) {
+        for (WebElement item : listOfItems) {
+            String itemTitle = item.findElement(By.className("inventory_item_name")).getText();
+            if(itemTitle.equals(productTitle)){
+                clickElement(item.findElement(By.cssSelector("button")));
+            }
 
+        }
+    }
 
 
     public void clickLinkedin() {

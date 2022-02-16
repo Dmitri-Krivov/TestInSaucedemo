@@ -1,6 +1,6 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
 "passed","Sat Jan 29 16:01:16 IST 2022","Sat Jan 29 16:01:34 IST 2022","17772","Test152","Sanity","tests.Sanity.Sanity2","tests.Sanity.Sanity2","test_01","test_01","Verify login and try to order something"
 "passed","Sat Jan 29 16:03:02 IST 2022","Sat Jan 29 16:03:08 IST 2022","6141","Test152","Sanity","tests.Sanity.Test152","tests.Sanity.Test152","test_01","test_01","Verify login and try to buy something"
-"broken","Sat Jan 29 15:12:38 IST 2022","Sat Jan 29 15:12:38 IST 2022","7","Sanity","Sanity","tests.Sanity.SanityTest","tests.Sanity.SanityTest","setUp","setUp",""
+"broken","Sat Jan 29 16:30:10 IST 2022","Sat Jan 29 16:30:10 IST 2022","6","Sanity","Sanity","tests.Sanity.SanityTest","tests.Sanity.SanityTest","setUp","setUp",""
+"passed","Sat Jan 29 16:46:02 IST 2022","Sat Jan 29 16:46:06 IST 2022","4175","Test152","Sanity","tests.Sanity.SanityTest","tests.Sanity.SanityTest","test_01","test_01","Verify login with different Credentials"
 "broken","Sat Jan 29 15:57:47 IST 2022","Sat Jan 29 15:57:47 IST 2022","5","Sanity","Sanity","tests.Sanity.Sanity2","tests.Sanity.Sanity2","setUp","setUp",""
-"passed","Sat Jan 29 16:02:19 IST 2022","Sat Jan 29 16:02:25 IST 2022","6067","Test152","Sanity","tests.Sanity.SanityTest","tests.Sanity.SanityTest","test_01","test_01","Verify login with different Credentials"
